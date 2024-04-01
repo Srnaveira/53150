@@ -31,7 +31,7 @@ class ProductManager {
         }
 
         this.products.push(product);
-
+        console.log("El producto se agrego correctamente")
 
     }
 
@@ -78,5 +78,5 @@ console.log(contenido_products);
 
 const product_id = productManager.getProductByld(1);
 
-console.log(`El producto buscad0o es el producto= ID: ${product_id.id}, Title: ${product_id.title}, Code: ${product_id.code}.`)
+console.log(`El producto buscado es el producto= ID: ${product_id.id}, Title: ${product_id.title}, Code: ${product_id.code}.`)
 
