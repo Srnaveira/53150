@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node --watch ECMAScript/app.js"
+    "start": "node --watch FileManagement/control.js"
   },
   "keywords": [],
   "author": "",

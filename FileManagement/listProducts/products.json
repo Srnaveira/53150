@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Mesa de Madera",
+    "description": "Mesa de Madera roble 6 Metros x 1.5 Metros",
+    "price": 1700000,
+    "thumbnail": "ruta/imagenB.jpg",
+    "code": "102MESA",
+    "stock": 10,
+    "id": 1
+  },
+  {
+    "title": "Silla de Madera",
+    "description": "Silla de Madera roble",
+    "price": 150000,
+    "thumbnail": "ruta/imagenC.jpg",
+    "code": "101SILLA",
+    "stock": 45,
+    "id": 2
+  },
+  {
+    "title": "Mesa de Madera",
+    "description": "Mesa de Madera roble 4 Metros x 1.5 Metros",
+    "price": 1300000,
+    "thumbnail": "ruta/imagenA.jpg",
+    "code": "101MESA",
+    "stock": 30,
+    "id": 3
+  }
+]
