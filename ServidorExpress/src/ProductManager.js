@@ -3,7 +3,7 @@ const fs = require('fs').promises;
 class ProductManager {
     constructor() {
         this.productsFile = 'products.json';
-        this.path = './listProducts/';
+        this.path = "./listProducts/";
     }
 
     async addProduct(product) {
@@ -72,7 +72,7 @@ class ProductManager {
 
     async getProducts(){
             const products = await this.cargarProducts();
-            return products;
+            console.log(products);
     }
 
     async getProductById(id) {
@@ -82,7 +82,8 @@ class ProductManager {
             console.log(`El id ingresado: ${id} no corresponde a ningun id de productos`);
             return;
         }
-        console.log(data2)
+        console.log(data2);
+        return data2;
     }
 
     async updatProduct(id, infoUpdate){
